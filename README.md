@@ -28,7 +28,7 @@ A remake of a [Super Mario World bonus game](https://youtu.be/7a8JmQ_ds4A) in HT
 
 ## Implementation
 
-Mario vs Browser will utilize the Phaser javascript game framework for handling sprites, animation, updates, and sound.
+Mario vs Browser will utilize the Matter.js javascript physics engine for handling gravity, movement, and object interaction.
 
 
 ## Timeline
@@ -36,7 +36,7 @@ Mario vs Browser will utilize the Phaser javascript game framework for handling 
 #### Day 1:
 + Install and configure webpack
 + Upload all sprites to cloudinary
-+ Learn basic Phaser API
++ Learn basic Matter.js API
 + Render sprites onto viewport
 + Set up initial features of gravity system
 
