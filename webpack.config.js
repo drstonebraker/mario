@@ -24,7 +24,7 @@ plugins = plugins.concat(
 // include plugins config
 module.exports = {
   context: __dirname,
-  entry: "./javascripts/main.js",
+  entry: "./src/javascripts/app.js",
   output: {
     path: path.resolve(__dirname),
     filename: "bundle.js"
@@ -39,6 +39,10 @@ module.exports = {
         query: {
           presets: ['env']
         }
+      },
+      {
+        test: /\.scss$/,
+        loaders: ["style-loader", "css-loader", "sass-loader"]
       }
     ]
   },

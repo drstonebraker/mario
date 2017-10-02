@@ -1,3 +1,5 @@
+require('../styles/app.scss')
+
 document.addEventListener('DOMContentLoaded', () => {
 
 
